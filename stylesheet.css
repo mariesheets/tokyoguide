@@ -1,6 +1,51 @@
-.hero-image {
-    background-image: url(tokyo-photo.jpg);
+.header {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 15px;
+    color: white;
+}
+
+#sightsheader {
+    background-image: url(sights-img.jpg);
     background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
     background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: 0px;
+}
+
+#cultureheader {
+    background-image: url(culture-img.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    background-size: cover;
+}
+
+#foodheader {
+    background-image: url(food-img.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    background-size: cover;
+}
+
+#transportheader {
+    background-image: url(transport-img.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    background-size: cover;
+}
+
+dt {
+    font-size: larger;
+    border-left: double;
 }
